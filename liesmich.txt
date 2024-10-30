@@ -1,0 +1,27 @@
+=== Ciao Box ===
+Contributors: pab
+Tags: widget, widgets, plugin, sidebar, ciao
+Requires at least: 2.3
+Tested up to: 2.7
+Stable tag: 1.3
+
+ciao_box ist ein Widget für WordPress Version 2.3 oder höher, das eine Ciao Box einblendet.
+
+== Installation ==
+
+1. Entzippe `ciao_box.zip` und lade die enthaltenen Dateien in den Ordner `/wp-content/plugins/` hoch
+2. Aktiviere das Plugin über das 'Plugin'-Menü in WordPress
+
+= Das Widget zur Sideber hinzufügen =
+
+1. Installiere das  Widget `Ciao Box` im Menü 'Design'/'Präsentation WordPress
+2. Generiere den Ciao Box Code auf http://www.ciao.de/specials/Ciao_Box_Generator
+3. Copy & Paste den generierten Code in das Textfeld Ciao Box Code im Menü 'Design'/'Präsentation WordPress
+
+= (Optional, fortgeschrittene Anwendung) `ciao_box` in einen Artikel oder eine Seite einfügen  =
+
+1. Gib `[ciao_box]` im Text eines Artikels oder einer Seite ein.
+
+= (Optional, fortgeschrittene Anwendung) `ciao_box` in einem Template einsetzen =
+
+1. Gib `<?php echo do_shortcode('[ciao_box]'); ?>` in einer passenden Datei des Templates ein.
